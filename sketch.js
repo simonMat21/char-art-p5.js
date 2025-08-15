@@ -15,7 +15,7 @@ function setup() {
   createCanvas(1200, 1000);
   pixelDensity(1);
 
-  // Create a copy of the original image
+  // Create a copy of the original image.
   img = originalImg.get();
   img.resize(width / vs, height / vs);
 
